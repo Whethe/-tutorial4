@@ -7,6 +7,6 @@ public class CalcTest {
     @Test
     void testAddition() {
         Calc c = new Calc();
-        assertEquals(4, c.add(2,2));
+        assertEquals(2, c.subtract(4,2));
     }
 }
